@@ -51,6 +51,7 @@ div {
     margin-top: 2rem;
     padding: 1rem;
     border: 1px solid black;
+    text-align: left;
 }
 
 footer {
