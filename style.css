@@ -7,7 +7,7 @@ body {
 }
 
 :root {
-    --primary-color: #facc15;
+    --primary-color: #fde047;
     --secondary-color: #fef3c7;
 }
 
@@ -26,11 +26,27 @@ h1 {
 
 }
 
-section {
+
+
+main {
     display: block;
     margin: auto;
     text-align: center;
     padding: 2rem;
+}
+
+img {
+    margin-top: 1rem;
+    max-width: 400px;
+    margin-bottom: 1rem;;
+}
+
+textarea {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    height: 100px;
+    width: 400px;
 }
 
 button {
@@ -56,10 +72,10 @@ div {
 
 footer {
     background-color: var(--primary-color);
-    padding: 3rem;
-    height: 140px;
+    padding: 2rem 1rem;
+    height: 100px;
     margin-top: 2px;
-    margin-bottom: 0px;
+
     text-align: center;
 
 }
